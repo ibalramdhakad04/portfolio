@@ -171,7 +171,7 @@ nav h1 span
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    background-image: url(./WhatsApp_Image_2024-09-15_at_19.42.04_f4f4943e-removebg-preview.png);
+    background-image: url('./WhatsApp_Image_2024-09-15_at_19.42.04_f4f4943e-removebg-preview.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
