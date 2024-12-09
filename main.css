@@ -1,0 +1,1445 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body
+{
+    font-family: sans-serif;
+    background-color: rgb(5, 5, 47);
+    color: white;
+    user-select: none;
+}
+
+#container       
+{
+    height: 100vh;
+    width: 100vw;
+    
+    /* border: 2px solid red; */
+}
+
+
+
+#data
+{
+    /* background-color: rgb(24, 17, 61); */
+    position: relative;
+    top: 50px;
+    left: 120px;
+    height: 85%;
+    width: 85%;
+    box-shadow: 20px 20px 200px rgb(8, 8, 82) , -20px -20px 100px rgb(91, 91, 91) ;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+nav
+{
+    margin: 10px;
+    width: 10%;
+    position: relative;
+    top: 10px;
+}
+
+ul
+{
+   position: relative;
+   top: 80px;
+   left: 5px;
+   text-align: center;
+}
+
+ul li
+{
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color :cyan;
+    transition: 0.2s;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    box-shadow: 3px 2px 5px cyan , -3px -2px 5px rgb(58, 54, 54) inset ;
+}
+
+ul li:hover
+{
+    transform: scale(1.1);
+}
+
+nav ul:hover> :not(:hover)
+{
+    filter: blur(1px);
+    opacity: 0.5;
+}
+
+nav h1 span
+{
+    color: cyan;
+}
+
+#social
+{
+    /* border: 1px solid red; */
+    position: relative ;
+    top:80px;
+}
+
+#linkedin
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+}
+
+#liimage
+{
+    width: 30px;
+}
+
+#linkedin p 
+{
+    font-size: 15px;
+    color:grey;
+   
+}
+
+#facebook
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+
+#fbimage
+{
+    width: 32px;
+}
+
+#facebook p 
+{
+    font-size: 13px;
+    color:grey;
+}
+
+#instagram
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+
+#inimage
+{
+    width: 35px
+}
+
+#instagram p 
+{
+    font-size: 13px;
+    color:grey;
+}
+
+
+
+
+
+#image
+{
+    height: 100%;
+    width: 50%;
+    /* border :1px solid red; */
+   
+    
+}
+
+#img1
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-image: url(./WhatsApp_Image_2024-09-15_at_19.42.04_f4f4943e-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 140px;
+    box-shadow: 8px 8px 2px cyan inset, 8px 8px 2px cyan ;
+}
+
+#img2
+{
+    width: 15%;
+    position:relative;
+    bottom: 250px;
+    left: 460px;
+    /* filter:drop-shadow(0px 0px 10px orange) */
+}
+
+#img3
+{
+    width: 15%;
+    position:relative;
+    bottom: 100px;
+    left: 370px;
+    /* filter:drop-shadow(0px 0px 10px skyblue) */
+}
+
+#img4
+{
+    width: 18%;
+    position:relative;
+    top: 50px;
+    left: 270px;
+    /* filter:drop-shadow(0px 0px 10px gold) */
+    
+}
+
+/* #img2 
+{
+    animation: htmlrotate 2s;
+}
+
+#img3 
+{
+    animation: cssrotate 2s;
+}
+
+#img4
+{
+    animation: jsrotate 2s;
+} */
+
+/* ____________________________ ANIMATION */
+
+/* @keyframes htmlrotate
+{
+    0%
+    {
+        transform: translate(0px);
+    }
+    
+    25%
+    {
+        transform: translatex(365px)
+    }
+
+    
+    50%
+    {
+        transform: translatey(380px) translateX(370px);
+    }
+
+    75%
+    {
+        transform: translatex(0px) translateY(380px);
+    }
+
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes cssrotate
+{
+    0%
+    {
+       transform: translate(0px);
+    }
+
+    25%
+    {
+        transform: translatey(380px)
+    }
+    
+
+    50%
+    {
+        transform: translatey(380px) translateX(-365px);
+    }
+    
+    75%
+    {
+        transform: translatex(-365px) translateY(0px);
+    }
+
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes jsrotate
+{
+    0%
+    {
+       transform: translate(0px);
+    }
+
+    25%
+    {
+        transform: translatex(-220px) translatey(-210px)
+    }
+
+
+    50%
+    {
+        transform: translatey(-420px) translateX(0px);
+    }
+    
+    75%
+    {
+        transform: translatex(200px) translateY(-250px);
+    }
+
+    100%
+    {
+        transform: translateY(0px);
+    }
+} */
+
+/* _________________________________ */
+
+#content
+{
+    height: 100%;
+    width: 50%;
+    
+    /* border :1px solid red; */
+    
+}
+
+#content #hello
+{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+#content h3
+{
+    font-size: 35px;
+    position: relative;
+    top: 55px;
+    left: 40px;
+}
+
+#content #name span
+{
+    color: cyan;
+}
+
+#content #front
+{
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+
+#content #front span
+{
+    color: cyan;
+}
+
+#summary
+{
+    width: 100%;
+    position: relative;
+    top: 110px;
+    left: 40px;
+    letter-spacing: 1px;
+}
+
+#summary span
+{
+    color: cyan;
+}
+
+#btns
+{
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
+#cv
+{
+    position: relative;
+    right: 80px;
+    font-size: 100%;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: cyan;
+    box-shadow: -3px 2px 2px cyan , 3px -2px 2px cyan ;
+    cursor: pointer;
+}
+
+#project
+{
+    position: relative;
+    left: 80px;
+    font-size: 100%;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: cyan;
+    box-shadow: 3px 2px 2px cyan , -3px -2px 2px cyan;
+    cursor: pointer;
+}
+
+#cv:hover
+{
+    box-shadow: -3px 2px 10px cyan , 3px -2px 10px cyan inset;
+}
+
+#project:hover
+{
+    box-shadow: -3px 2px 10px cyan , 3px -2px 10px cyan inset;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<< ANIMATION >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#content #hello
+{
+
+    animation: slidedown 2s;
+}
+
+#content #name
+{
+
+    animation: opacity 4s;
+}
+
+nav h1
+{
+
+    animation: opacity 5s;
+}
+
+#content #front
+{
+
+    animation: opacity 5s;
+}
+
+#summary
+{
+    animation: blur 1s;
+}
+
+#li1
+{
+    animation: slideright .8s;
+}
+
+#li2
+{
+    animation: slideright 1s;
+}
+
+#li3
+{
+    animation: slideright 1.2s;
+}
+
+#li4
+{
+    animation: slideright 1.4s;
+}
+
+#social
+{
+    animation: slideright 2s;
+}
+
+#project
+{
+    animation :slideup 2s;
+
+}
+
+#cv
+{
+    animation: slideup 2s;
+}
+
+#image
+{
+    animation: slideleft 2s;
+}
+
+/* ____________________________________________ */
+
+@keyframes slidedown
+{
+    to
+    {
+        transform: translateY(0px) ;
+        opacity: 1;
+    }
+    from
+    {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+}
+
+@keyframes opacity
+{
+    to
+    {
+        opacity: 1;
+    }
+    from
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes slideright
+{
+    to
+    {
+        transform: translatex(0px);
+        
+    }
+    from
+    {
+        transform: translatex(-100px);
+        
+    }
+}
+
+@keyframes blur
+{
+    to
+    {
+        filter: blur(0px);
+    }
+    from
+    {
+        filter: blur(2px);
+    }
+}
+
+@keyframes slideup
+{
+    to
+    {
+        transform: translatey(0px);
+    }
+    from
+    {
+        transform: translatey(100px);
+    }
+}
+
+@keyframes slideleft
+{
+    to
+    {
+        transform: translatex(0px);
+    }
+    from
+    {
+        transform: translatex(100px);
+    }
+}
+
+@keyframes opacity1
+{
+    to
+    {
+        opacity: 0;
+        
+    }
+    from
+    {
+        opacity: 0;
+       
+    }
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  js inner html  */
+
+
+#skill
+{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    animation: slideright .7s;
+}
+
+#skill span 
+{
+    color: cyan;
+}
+
+#education
+{
+    font-size: 25px;
+    color: cyan;
+    position: relative;
+    top: 80px;
+    left :50px;
+    animation: opacity 2s;
+}
+
+#education span
+{
+    color: white;
+}
+
+/* #classes
+{
+    position: relative;
+    top: 80px;
+    left :10px;
+} */
+
+#class
+{
+    font-size: 25px;
+    position: relative;
+    top: 90px;
+    left :70px;
+   animation: opacity 2s;
+}
+
+#class span
+{
+    color: cyan;
+}
+
+#class10
+{
+    position: relative;
+    top: 100px;
+    left :100px;
+    animation: opacity 2s;
+}
+
+#class12
+{
+    position: relative;
+    top: 110px;
+    left :100px;
+    animation: opacity 2s;
+}
+
+
+#graduation
+{
+    font-size: 25px;
+    position: relative;
+    top: 130px;
+    left :70px;
+    animation: opacity 2s;
+}
+
+#graduation span
+{
+    color: cyan;
+}
+
+#bachelor
+{
+    position: relative;
+    top: 150px;
+    left :60px;
+    animation: opacity 2s;
+}
+
+#aboutme
+{
+    position: relative;
+    top: 180px;
+    left :60px;
+    font-size: 25px;
+    animation: opacity 2s;
+}
+
+#aboutme ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 5px;
+}
+
+#aboutme ul li
+{
+    padding: 3px;
+    position: relative;
+    bottom: 50px;
+    cursor: auto;
+}
+
+#html
+{
+    position: relative;
+    top: 150px;
+    left: 40px;
+    font-size: 25px;
+    color: cyan;
+    animation: opacity1 .5s;
+}
+
+#html span
+{
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+#html p
+{
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    left: 10px;
+}
+
+#css
+{
+    position: relative;
+    top: 170px;
+    left: 40px;
+    font-size: 25px;
+    color: cyan;
+    animation: opacity1 1s;
+}
+
+#css span
+{
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+#css p
+{
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    left: 10px;
+}
+
+#js
+{
+    position: relative;
+    top: 190px;
+    left: 40px;
+    font-size: 25px;
+    color: cyan;
+    animation: opacity1 1.5s;
+}
+
+#js span
+{
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+#js p
+{
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    left: 10px;
+}
+
+#infobtns
+{
+    /* display: none; */
+    position: relative;
+    top: 150px;
+    left: 60px;
+}
+
+#mail
+{
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 47);
+    text-align: center;
+    font-weight: 10;
+    letter-spacing: 1px;
+    box-shadow: -5px 5px 20px rgba(0, 255, 255, 0.653) inset,5px 5px 20px rgba(0, 255, 255, 0.653) inset;
+    /* border: white 2px solid; */
+    position: relative;
+    cursor: pointer;
+}
+
+#mail:hover
+{
+    box-shadow: 5px -5px 20px rgba(0, 255, 255, 0.653) inset,-5px -5px 20px rgba(0, 255, 255, 0.653) inset;   
+}
+
+#whatsapp
+{
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 47);
+    text-align: center;
+    font-weight: 10;
+    letter-spacing: 1px;
+    box-shadow: -5px 5px 20px rgba(0, 255, 255, 0.653) inset,5px 5px 20px rgba(0, 255, 255, 0.653) inset;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+   
+}
+
+#whatsapp:hover
+{
+    box-shadow: 5px -5px 20px rgba(0, 255, 255, 0.653) inset,-5px -5px 20px rgba(0, 255, 255, 0.653) inset;   
+}
+
+
+#mail img
+{
+    width: 4%;
+    position: relative;
+    right: 8px;
+    top: 4px;
+}
+
+#whatsapp img
+{
+    width: 4%;
+    position: relative;
+    right: 8px;
+    top: 4px;
+}
+
+/* _____________________________________------------------- */
+
+@media screen and (max-width: 1450px)
+{
+    #data
+    {
+        /* background-color: rgb(24, 17, 61); */
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+
+    #image
+    {
+        height: 100%;
+        width: 50%
+    }
+
+    #img1
+    {
+        width: 50%;
+        height: 35%;
+        border-radius: 50%;
+        position: relative;
+        top: 120px;
+        left: 100px;
+    }  
+    
+    #img2
+    {
+        width: 15%;
+        position:relative;
+        bottom: 250px;
+        left: 400px;
+        /* filter:drop-shadow(0px 0px 10px orange) */
+    }
+    
+    #img3
+    {
+        width: 15%;
+        position:relative;
+        bottom: 100px;
+        left: 320px;
+        /* filter:drop-shadow(0px 0px 10px skyblue) */
+    }
+    
+    #img4
+    {
+        width: 18%;
+        position:relative;
+        top: 50px;
+        left: 225px;
+        /* filter:drop-shadow(0px 0px 10px gold) */
+        
+    }
+}
+
+@media screen and (max-width: 1250px)
+{
+    #image
+    {
+        height: 100%;
+        width: 50%
+    }
+
+    #img1
+    {
+        width: 50%;
+        height: 30%;
+        border-radius: 50%;
+        position: relative;
+        top: 120px;
+        left: 60px;
+    }  
+    
+    #img2
+    {
+        width: 15%;
+        position:relative;
+        bottom: 200px;
+        left: 300px;
+        /* filter:drop-shadow(0px 0px 10px orange) */
+    }
+    
+    #img3
+    {
+        width: 15%;
+        position:relative;
+        bottom: 80px;
+        left: 230px;
+        /* filter:drop-shadow(0px 0px 10px skyblue) */
+    }
+    
+    #img4
+    {
+        width: 18%;
+        position:relative;
+        top: 40px;
+        left: 150px;
+        /* filter:drop-shadow(0px 0px 10px gold) */
+        
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    #image
+    {
+        height: 100%;
+        width: 50%
+    }
+
+    #img1
+    {
+        width: 50%;
+        height: 25%;
+        border-radius: 50%;
+        position: relative;
+        top: 120px;
+        left: 60px;
+    }  
+    
+    #img2
+    {
+        width: 15%;
+        position:relative;
+        bottom: 150px;
+        left: 260px;
+        /* filter:drop-shadow(0px 0px 10px orange) */
+    }
+    
+    #img3
+    {
+        width: 15%;
+        position:relative;
+        bottom: 50px;
+        left: 205px;
+        /* filter:drop-shadow(0px 0px 10px skyblue) */
+    }
+    
+    #img4
+    {
+        width: 18%;
+        position:relative;
+        top: 50px;
+        left: 140px;
+        /* filter:drop-shadow(0px 0px 10px gold) */
+        
+    }
+
+
+    #cv
+    {
+       position: relative;
+       right: 40px;
+    }
+
+    #project
+    {
+        position: relative;
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 900px)
+{
+
+    #data
+{
+    /* background-color: rgb(24, 17, 61); */
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+    #image
+    {
+        height: 100%;
+        width: 50%
+    }
+
+    #img1
+    {
+        width: 50%;
+        height: 20%;
+        border-radius: 50%;
+        position: relative;
+        top: 200px;
+        left: 30px;
+    }  
+    
+    #img2
+    {
+        width: 15%;
+        position:relative;
+        bottom: 20px;
+        left: 220px;
+        /* filter:drop-shadow(0px 0px 10px orange) */
+    }
+    
+    #img3
+    {
+        width: 15%;
+        position:relative;
+        top: 65px;
+        left: 165px;
+        /* filter:drop-shadow(0px 0px 10px skyblue) */
+    }
+    
+    #img4
+    {
+        width: 18%;
+        position:relative;
+        top: 150px;
+        left: 105px;
+        /* filter:drop-shadow(0px 0px 10px gold) */
+        
+    }
+
+
+    #cv
+    {
+       position: relative;
+       right: 40px;
+    }
+
+    #project
+    {
+        position: relative;
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+
+    #data
+    {
+        position: relative;
+        top: 50px;
+        left: 40px;
+        display: block;
+        overflow-y: scroll;
+   }
+
+   nav
+   {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+        width: 100%;
+   }
+
+   nav h1 
+   {
+    position: relative;
+    
+   }
+
+   nav ul
+   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    column-gap: 40px;
+   }
+
+   nav ul li 
+   {
+    padding: 10px;
+   }
+
+   #social
+   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    position: relative;
+    right: 420px;
+   }
+
+   #content
+   {
+    width: 90%;
+    position: relative;
+    top: 600px;
+   }
+
+
+
+    #image
+    {
+        height: 1%;
+        width: 100%
+        
+    }
+
+    #img1
+    {
+        width: 45%;
+        height: 35%;
+        border-radius: 50%;
+        position: absolute;
+        top: 220px;
+        left: 180px;
+    }  
+    
+    #img2
+    {
+        width: 15%;
+        position: absolute;
+        top: 570px;
+        left: 100px;
+        /* filter:drop-shadow(0px 0px 10px orange) */
+    }
+    
+    #img3
+    {
+        width: 15%;
+        position: absolute;
+        top: 570px;
+        left: 280px;
+        /* filter:drop-shadow(0px 0px 10px skyblue) */
+    }
+    
+    #img4
+    {
+        width: 18%;
+        position: absolute;
+        top: 570px;
+        left: 450px;
+        
+    }
+
+
+    #cv
+    {
+       position: relative;
+       right: 40px;
+    }
+
+    #project
+    {
+        position: relative;
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 578px)
+{
+
+    #data
+    {
+        position: relative;
+        top: 50px;
+        left: 40px;
+        display: block;
+        overflow-y: scroll;
+   }
+
+   nav
+   {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+        width: 100%;
+   }
+
+   nav h1 
+   {
+    position: relative;
+    
+   }
+
+   nav ul
+   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    column-gap: 12px;
+   }
+
+   nav ul li 
+   {
+    padding: 5px;
+   }
+
+   #social
+   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    position: relative;
+    right: 400px;
+   }
+
+   #content
+   {
+    width: 90%;
+    position: relative;
+    top: 600px;
+   }
+
+
+
+    #image
+    {
+        height: 1%;
+        width: 1%
+        
+    }
+
+    #img1
+    {
+        width: 50%;
+        height: 35%;
+        border-radius: 50%;
+        position: absolute;
+        top: 220px;
+        left: 130px;
+    }  
+    
+    #img2
+    {
+        width: 15%;
+        position: absolute;
+        top: 570px;
+        left: 60px;
+        /* filter:drop-shadow(0px 0px 10px orange) */
+    }
+    
+    #img3
+    {
+        width: 15%;
+        position: absolute;
+        top: 570px;
+        left: 220px;
+        /* filter:drop-shadow(0px 0px 10px skyblue) */
+    }
+    
+    #img4
+    {
+        width: 18%;
+        position: absolute;
+        top: 570px;
+        left: 360px;
+        
+    }
+
+
+    #cv
+    {
+       position: relative;
+       right: 40px;
+    }
+
+    #project
+    {
+        position: relative;
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 440px)
+{
+
+    #data
+    {
+        position: relative;
+        top: 50px;
+        left: 40px;
+        display: block;
+        overflow-y: scroll;
+   }
+
+   nav
+   {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+        width: 100%;
+   }
+
+   nav h1 
+   {
+    position: relative;
+    top: 5px;
+    
+   }
+
+   nav ul
+   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    column-gap: 12px;
+   }
+
+   nav ul li 
+   {
+    padding: 5px;
+   }
+
+   #social
+   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+   }
+
+   #content
+   {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    top: 600px;
+   }
+
+
+
+    #image
+    {
+        height: 1%;
+        width: 1%
+        
+    }
+
+    #img1
+    {
+        width: 70%;
+        height: 35%;
+        border-radius: 50%;
+        position: absolute;
+        top: 220px;
+        left: 50px;
+        animation: slideright 2s;
+    }  
+    
+    #img2
+    {
+        width: 15%;
+        position: absolute;
+        top: 550px;
+        left: 40px;
+        /* filter:drop-shadow(0px 0px 10px orange) */
+    }
+    
+    #img3
+    {
+        width: 15%;
+        position: absolute;
+        top: 550px;
+        left: 150px;
+        /* filter:drop-shadow(0px 0px 10px skyblue) */
+    }
+    
+    #img4
+    {
+        width: 18%;
+        position: absolute;
+        top: 550px;
+        left: 240px;
+        
+    }
+
+
+    #cv
+    {
+       position: relative;
+       left: 25px;
+    }
+
+    #project
+    {
+        position: relative;
+        left: 50px;
+    }
+
+}
